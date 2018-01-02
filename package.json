@@ -1,0 +1,23 @@
+{
+  "name": "mc-recursion",
+  "version": "1.0.0",
+  "description": "recursion morning challenge ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foundersandcoders/mc-recursion.git"
+  },
+  "author": "john whiles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foundersandcoders/mc-recursion/issues"
+  },
+  "homepage": "https://github.com/foundersandcoders/mc-recursion#readme",
+  "dependencies": {
+    "expect": "^22.0.3",
+    "jest": "^22.0.4"
+  }
+}
