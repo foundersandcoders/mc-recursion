@@ -16,7 +16,7 @@
  case'
  b - a way for the function to invokve itself. 
 
- - contrived example 1
+### Contrived example 1
 
  ```js
 const countToTen = (count) => {
@@ -38,7 +38,7 @@ countToTen(0); // will console log the numbers from 1 to 10
 
 
 
-// - contrived example 2 
+### Contrived example 2 
 
 ```js
 // shout :: [String] -> [String]
@@ -58,15 +58,13 @@ console.log(shout(["I", "am", "a", "sensitive", "boy"]))
 the recursion might be a bit hard to parse. SO LETS BREAK IT
 DOWN
 
-`[(words[0].toUpperCase())]`
-- we uppercase the first word in our array, and stick it inside
-a new array.
+`[(words[0].toUpperCase())]` - we uppercase the first word in our array, and stick it inside a new array
 
-`.concat(...)`
-we are appending something to the end of the array
+`.concat(...)` - we are appending something to the end of the array
 
-shout(words.slice(1))
-and that thing is shout invoked with our remaining words.
+
+`shout(words.slice(1))` - and that thing is shout invoked with our remaining words.
+
 
 we could also write it out like this
 ```js
@@ -77,12 +75,8 @@ const restOfTheWordsShouted = shout(restOfTheWords);
 return [firstWordShouted].concat(restOfTheWordsShouted);
 ```
 
-the key to understanding how this works, is understanding
-JavaScript's stack
-the last function we invoke, will be the first that resolves.
-
-I recommend this video
-https://www.youtube.com/watch?v=8aGhZQkoFbQ
+If you want to really understand how this is all working, I suggest learning
+about JavaScript's stack - (this video is a good place to start)[https://www.youtube.com/watch?v=8aGhZQkoFbQ]
 
 
 
