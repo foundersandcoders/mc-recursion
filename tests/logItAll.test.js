@@ -1,11 +1,6 @@
 const {
   logItAll,
-  recursiveSum,
-  map,
-  fib,
-  reduce,
-  reduceMap,
-} = require('./index.js');
+} = require('../index.js');
 
 describe('logItAll', () => {
   beforeEach(() => {
@@ -26,3 +21,5 @@ describe('logItAll', () => {
     expect(console.log).lastCalledWith('eyes');
   });
 });
+
+
