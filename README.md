@@ -76,7 +76,7 @@ return [firstWordShouted].concat(restOfTheWordsShouted);
 ```
 
 If you want to really understand how this is all working, I suggest learning
-about JavaScript's stack - (this video is a good place to start)[https://www.youtube.com/watch?v=8aGhZQkoFbQ]
+about JavaScript's stack - [ this video is a good place to start ](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 
 
 
