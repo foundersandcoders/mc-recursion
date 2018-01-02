@@ -82,9 +82,12 @@ You can then open the index.js file, and start trying to write your solutions.
 
 If you get stuck, ask your peers for help! 🦄
 
-If you want to really understand how this is all working, I suggest learning
+
+### Further research
+If you want to really understand how this can possibly work, I suggest learning
 about JavaScript's stack - [ this video is a good place to start ](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 
 
+[computerphile video about recursion](https://www.youtube.com/watch?v=Mv9NEXX1VHc)
 
 
