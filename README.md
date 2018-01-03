@@ -1,5 +1,7 @@
 # mc-recursion
- recursive programming is all about functions that invoke themselves. It allows 
+The aim of workshop is to introduce students to recursive programming. 
+
+ Recursive programming is all about functions that invoke themselves. It allows 
  us to perform the same sort of tasks that loops are typically used for but in a
  an arguably more elegant way. Recursion isn't useful in every situation but it 
  some problems are most easily solved recursively - and it's always fun to learn
