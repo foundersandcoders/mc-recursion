@@ -13,30 +13,30 @@ The aim of workshop is to introduce students to recursive programming.
 
 ## How write a recursive function
 
- There are two main parts to a recursive function
- a - something that will make the function stop. Sometimes called a 'base
- case'
- b - a way for the function to invokve itself. 
+ There are two main parts to a recursive function:
+ 1. Something that will make the function stop. Sometimes called a 'base
+ case'.
+ 
+ 2. A way for the function to invoke itself. 
 
 ### Contrived example 1
 
- ```js
+```js
 const countToTen = (count) => {
   if (count >= 10) {
-  // this is our base case. If we have counted to ten - we stop
-  // Without this we would keep going forever!!!
-      console.log(count);
-      return;
-    } else {
-      // this is what makes our function recursive. It calls
-      itself!!!!!
-      console.log(count);
-      countToTen(count + 1);
-      }
-    }
+    // this is our base case. If we have counted to ten - we stop
+    // Without this we would keep going forever!!!
+    console.log(count);
+    return;
+  } else {
+    // this is what makes our function recursive. It calls itself!!!!!
+    console.log(count);
+    countToTen(count + 1);
+  }
+}
 
 countToTen(0); // will console log the numbers from 1 to 10
-  ```
+```
 
 
 
